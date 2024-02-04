@@ -83,10 +83,10 @@ def move():
 
 # Keyboard bindings
 wn.listen()
-wn.onkeypress(go_up, "8")
-wn.onkeypress(go_down, "2")
-wn.onkeypress(go_left, "4")
-wn.onkeypress(go_right, "6")
+wn.onkeypress(go_up, "w")
+wn.onkeypress(go_down, "s")
+wn.onkeypress(go_left, "a")
+wn.onkeypress(go_right, "d")
 
 # Main game loop
 while True:

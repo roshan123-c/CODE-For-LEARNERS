@@ -1,0 +1,7 @@
+t1=(5,7,1,8,39)
+t2=list(t1)
+print(t2)
+t2.sort()
+print(t2)
+t1=tuple(t2)
+print(t1)
